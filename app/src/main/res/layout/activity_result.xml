@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/front2"
+    tools:context=".Result">
+
+
+
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Estimated CGPA"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="times"
+        android:layout_gravity="center"
+        android:gravity="center"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="3.56"
+        android:id="@+id/tvCGPA"
+        android:textStyle="bold"
+        android:fontFamily="times"
+        android:textColor="#A30106"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:textSize="100dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvComment"
+        android:layout_height="wrap_content"
+        android:text="good"
+        android:textStyle="italic"
+        android:fontFamily="times"
+        android:textColor="#A30101"
+        android:gravity="center"
+        android:textSize="30dp"
+        ></TextView>
+    <TextView
+        android:layout_width="250dp"
+        android:id="@+id/tvQ"
+        android:layout_height="wrap_content"
+        android:text="good"
+        android:textStyle="italic"
+        android:fontFamily="times"
+        android:textColor="#A30101"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp"
+        ></TextView>
+
+
+
+</LinearLayout>
